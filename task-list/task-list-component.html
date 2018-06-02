@@ -1,0 +1,7 @@
+
+
+
+<ol>
+  <li ng-repeat="item in $ctrl.todos | filter: $ctrl.filterBy track by $index">{{ item }}<button class="close" ng-click="$ctrl.delete($index)">x</button>
+  </li>
+</ol>

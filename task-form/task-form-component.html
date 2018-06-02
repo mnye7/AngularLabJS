@@ -1,0 +1,21 @@
+<div class="page-div">
+
+
+<div class="headers">
+
+
+  <h1>TODO List</h1>
+  <h4>A place to store the things you have to do!</h4>
+
+</div>
+
+<input type="text" ng-model="$ctrl.search"  placeholder="Filter your TODO">
+
+
+<task-list todos="$ctrl.todos" filter-by="$ctrl.search"></task-list>
+
+
+<input type="text" ng-model="$ctrl.items" ng-keydown="$ctrl.onKeyDown($event)" placeholder="add to your todo" />
+<button type="button" class="add" ng-click="$ctrl.add()">SAVE</button>
+
+</div>
