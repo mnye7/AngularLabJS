@@ -1,7 +1,7 @@
 (function(){
   angular.module('app')
     .factory('DataFactory', function() {
-      var todos = ['clean', 'sweep', 'read'];
+      var todos = ['Clean', 'Sweep', 'Read'];
 
       return{
         setData: function(data){

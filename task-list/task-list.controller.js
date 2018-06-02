@@ -5,6 +5,7 @@ angular.module('app')
 
         $ctrl.delete = function(index) {
             $ctrl.todos.splice(index, 1);
+            // DataFactory.setData($ctrl.todos);
         }
       });
     })();

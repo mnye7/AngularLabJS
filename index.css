@@ -4,42 +4,43 @@ body {
 }
 
 h1{
-  margin-left: 10px;
-  margin-top: 50px;
+  margin-left: 25px;
+  margin-top: 21px;
 }
 
 h4{
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 li{
-  width: 300px;
+  width: 95%;
 }
 
-li:hover{
-  background-color: yellow;
+a{
+  text-decoration: none;
 }
 
 input{
   border: solid black 1px;
   margin-bottom: 15px;
   border-bottom: 1px solid #CCC;
-  width: 95%;
-  margin-left: 10px;
+  width: 92%;
+  margin-left: 25px;
   height: 37px;
 }
 
 .page-div {
   background-color: white;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 25%;
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 25vh;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   border-radius: 10px;
   min-height:60vh;
   height: auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 
 }
 
@@ -53,6 +54,9 @@ input{
   margin-bottom: 23px;
 }
 
+.form-back{
+  padding-top: 30px;
+}
 
 .add {
   background-color: #008000;
@@ -61,7 +65,55 @@ input{
   height: 40px;
   color: white;
   margin-bottom: 22px;
-  margin-left: 10px;
+  margin-left: 19px;
   margin-top: 15px;
 
+}
+
+/***
+Hover style
+***/
+
+
+li:hover{
+  background-color: yellow;
+}
+
+
+.close:hover{
+  background-color: yellow;
+}
+
+/***
+Welcome page styling
+***/
+
+
+.welcome-div{
+  background-color: white;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 25vw;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.wlcm-h1{
+  margin-left: 25px;
+  padding-top: 25px;
+}
+
+.wlcm-h3{
+  margin-left: 25px;
+}
+
+.wlcm-enter{
+  margin-left: 90%;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
 }
